@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh Aggarwal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+    <meta name="keywords" content="Software Engineer, UIUC">
+    <meta name="description" content="Ansh Aggarwal is an undergraduate at the University of Illinois Urbana-Champaign.">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom"> 
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+            <a class="navbar-brand mx-auto text-center" href="#">👋 Hi, I'm Ansh Aggarwal! 👋</a>
+            <span class="navbar-text small-text">Updated Aug 2024</span>
+        </div>
+    </nav>    
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Vertical Sidebar -->
+            <div class="col-md-3 col-lg-2 sidebar text-white">
+                <div class="text-center py-4">
+                    <img src="IMG_7026.JPG" class="img-fluid rounded-circle mb-3 profile-pic">
+                    <div class="profile-name">Ansh Aggarwal</div> 
+                    <p class="school-email">ansha2@illinois.edu</p>
+                    <p class="profile-description">Computer Science at UIUC<br></p>
+                    <div class="social-links">
+                        <a href="https://medium.com/@anshkaggarwal" target="_blank" class="social-box">
+                            Medium.com
+                        </a>
+                        <a href="https://github.com/anshkaggarwal22" target="_blank" class="social-box">
+                            GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/ansh-aggarwal-ba6bb42b9/" target="_blank" class="social-box">
+                            LinkedIn 
+                        </a>
+                        <a href="mailto:ansha2@illinois.edu" class="social-box">
+                            Email
+                        </a>
+                    </div>
+                </div>                
+            </div>
+
+            <!-- Main Panel -->
+            <div class="col-md-10 col-lg-11 content-area">
+                <div class="container py-4 content-panel">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about"
+                                type="button" role="tab" aria-controls="about" aria-selected="true">About Me</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="Experience-tab" data-bs-toggle="tab" data-bs-target="#Experience"
+                                type="button" role="tab" aria-controls="Experience" aria-selected="false">Experience</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects"
+                                type="button" role="tab" aria-controls="projects" aria-selected="false">Projects</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="scorepredictor-tab" data-bs-toggle="tab" data-bs-target="#scorepredictor"
+                                type="button" role="tab" aria-controls="scorepredictor" aria-selected="false">How much will my Fantasy Football Team Score?</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+                            <h2>About Me</h2>
+                            <div class="double-spaced-content">
+                                <p>Hi, I'm Ansh! I'm from Chicago, IL. I'm currently an incoming undergraduate at the University of Illinois Urbana-Champaign studying Computer Science. I just finished interning at Smartlinx, a workforce management solutions company, where my main project was to build a virtual clock system enabling a cross-building clock-in service for over 500K users, enhancing employee convenience and reducing building constraints.</p>
+                            
+                                <p>I love working on projects that I am passionate about on the side. Most recently, I got my article published in the Journal of Student Research titled, "Using a Predictive Model to Reduce Emissions/Energy Costs with Virtual Power Plants in North India," where I developed a Machine Learning model with 98.89% accuracy in predicting emissions/cost, demonstrating the potential of Virtual Power Plants to reduce pollution in developing countries.</p>
+                            
+                                <p>I love exploring new technologies and am currently fascinated by Virtual Power Plants, applications of Machine Learning in fintech, and Caleb Williams' Super Bowl run with the Bears (I'm still delusional). I am a huge NFL football fan. You'll find me glued to the nearest TV, computer, or phone streaming multiple games at once. It's the best way to root for my favorite players who are all coincidentally on my team now and hang out with friends. Can't wait for UIUC games!</p>
+                            
+                                <p>I love writing articles on Medium.com about Machine Learning and AI. It's an outlet to provide others who might not have a technical background with info about how our future innovations run behind the scenes. But even more than that, it's an opportunity for aspiring engineers, including myself, to strengthen their foundational knowledge and build off of that.</p>
+                            
+                                <p>I love talking about tech, products, stocks, and more. Feel free to connect with me over LinkedIn! Links to the left!</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Experience" role="tabpanel" aria-labelledby="Experience-tab">
+                            <h2>Experience</h2>
+                            <div class="experience-item">
+                                <h4>Smartlinx | <span>June 2024 - August 2024</span></h4>
+                                <p>SWE Intern - Built a virtual clock system for over 500K users, enhancing convenience and reducing building constraints</p>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <h4>Independent Research | <span>June 2023 - September 2023</span></h4>
+                                <p>Researcher - Developed ML model with 98.89% accuracy in predicting gains in emissions/cost to reduce pollution in developing countries</p>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <h4>Northwestern University | <span>June-August 2022 & June-August 2023</span></h4>
+                                <p>Research Intern - Improved ML control system accuracy to over 99% for a Fermilab particle accelerator to enhance safety measures</p>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <h4>University of Illinois Urbana-Champaign | <span>February 2023 - June 2023</span></h4>
+                                <p>IOT Camp Instructor - Created and taught a 7-day Algorithms course covering essential computer science topics to high school students</p>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <h4>SurePayroll | <span>June 2021 - July 2021</span></h4>
+                                <p>SDE Intern - Developed a payroll info entry web page for 5000 accountants and collaborated with teams to enhance product quality</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+                            <h2>Projects</h2>
+                        
+                            <div class="project-widget">
+                                <h4>Using a Predictive Model to Reduce Emissions/Energy Costs with Virtual Power Plants in North India</h4>
+                                <p><strong>June 2023 - September 2023</strong></p>
+                                <p>                                
+                                    This project aims to reduce emissions and energy costs in India by optimizing power plant output using Mixed Integer Linear Programming. 
+                                    The approach creates Unit Commitment (UC) and Economic Dispatch (ED) schedules to determine which plants should operate and at what levels. 
+                                    By recalibrating energy usage based on real-time data, such as demand and weather, UC/ED helps stabilize the grid while minimizing energy consumption.
+                                </p>
+                                <p><strong>Technologies Used:</strong> Python, Gurobi, BEOPT Tool, Excel</p>
+                                <p>
+                                    <a href="https://github.com/anshkaggarwal22/VirtualPowerPlantProject" target="_blank" class="btn btn-primary">View on GitHub</a>
+                                    <a href="https://www.jsr.org/hs/index.php/path/article/view/6626" target="_blank" class="btn btn-secondary">View Publication</a>
+                                </p>
+                            </div>
+                        
+                            <p>Next project is going to be a Fantasy Football Player Score Predictor so you can accurately choose which player to start at what position using real life data instead of "a hunch."</p>
+                        </div>
+                        <div class="tab-pane fade" id="scorepredictor" role="tabpanel" aria-labelledby="scorepredictor-tab">
+                            <h2>Fantasy Football Score Predictor (Full PPR)</h2>
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="fantasy-team">
+                                        <h3>My Team</h3>
+                                        <ul>
+                                            <li>Quarterback: Jordan Love</li>
+                                            <li>Running Back: Breece Hall</li>
+                                            <li>Running Back: De'Von Achane</li>
+                                            <li>Wide Receiver: Marvin Harrison Jr</li>
+                                            <li>Wide Receiver: DK Metcalf</li>
+                                            <li>Tight End: Trey McBride</li>
+                                            <li>Flex: James Conner</li>
+                                            <li>Defense: Bengals</li>
+                                            <li>Kicker: Tyler Bass</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="team-prediction">
+                                        <label for="prediction"><br><br>Predict my team's score this week:</label>
+                                        <input type="number" id="prediction" min="0" max="300">
+                                        <button onclick="submitPrediction()">Submit Prediction</button>
+                                    </div>
+                                    
+                                    <div class="prediction-response">
+                                        <br><p id="response-message"></p>
+                                    </div>
+                                </div>
+                        
+                                <div class="col-lg-4">
+                                    <img src="fantasyteam.png" alt="Team Image" class="img-fluid rounded" style="max-width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
