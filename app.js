@@ -20,3 +20,6 @@ function submitPrediction() {
 
     document.getElementById('prediction').value = '';
 }
+
+
+//test
